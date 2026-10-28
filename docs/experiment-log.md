@@ -53,3 +53,45 @@ The TTP223 is a capacitive touch sensing integrated circuit (IC). Its main funct
 - Visual inspection of hardware components can be just as important as checking the wiring and code.
 - Replacing a suspected faulty component and repeating the same test is a useful way to isolate a hardware problem.
 - Although the replacement test supports the hardware fault hypothesis, the exact cause of the original module's failure was not independently confirmed.
+
+### Troubleshooting 02 — Connector Compatibility
+
+**Problem**
+
+I considered using a blue touch sensor module at beginning. However, I could not find a compatible connector cable.
+
+**Observation**
+
+The blue sensor was not tested, as I could not establish a suitable connection to the Arduino.
+
+**Decision**
+
+I continued prototyping with the red HW-763 modules, which could be connected using the available components.
+
+**Lesson Learned**
+
+Hardware compatibility and the availability of suitable connectors can influence component selection, even before electronic testing begins.
+
+### Troubleshooting 03 — Header Pin Orientation and Usability
+
+**Problem**
+
+When soldering the header pins onto the red touch sensor module, I positioned them on the touch-sensitive side of the board.
+
+**Observation**
+
+Although the sensor worked electronically, the protruding pins made the touch-sensitive area difficult to access comfortably.
+
+**Design Implications**
+
+This highlighted the importance of considering physical interaction during hardware assembly, rather than focusing only on electrical functionality.
+
+**Next Iteration**
+
+- Reconsider the orientation of the header pins when assembling additional modules.
+- Explore ways to make the touch-sensitive surface more accessible.
+- Consider how the sensor could be incorporated into a more intuitive physical interface.
+
+**Lesson Learned**
+
+A technically functional prototype is not necessarily a usable interface. Physical assembly decisions can directly affect the user experience.
