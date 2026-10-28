@@ -10,7 +10,7 @@ This document records the experiments, observations, challenges and lessons lear
 ### Completed
 - Tested HW-763 capacitive touch sensors with an Arduino MKR WiFi 1010.
 - Successfully detected `TOUCHED` and `NOT TOUCHED` states.
-- Tested two sensors independently and simultaneously.
+- Two HW-763 sensor modules were successfully tested separately. Testing both sensors together on the same Arduino is planned for the next iteration.
 
 ### Observations
 - Encountered and investigated a faulty sensor module.
