@@ -95,3 +95,120 @@ This highlighted the importance of considering physical interaction during hardw
 **Lesson Learned**
 
 A technically functional prototype is not necessarily a usable interface. Physical assembly decisions can directly affect the user experience.
+
+
+---
+
+## 28 October 2026 — Touch Ring and MQTT Integration
+
+### Experiment 04 — Six-Sensor Touch Ring
+
+**Objective**
+
+To develop a circular touch interface using six HW-763 capacitive touch sensors.
+
+**Progress**
+- Connected six touch sensors to an Arduino MKR WiFi 1010.
+- Tested the touch inputs.
+- Developed a method to identify finger movement around the circular arrangement.
+- Explored using touch direction to control light colour.
+
+**Result**
+
+The touch ring successfully detected user interactions and provided input for controlling colour changes.
+
+### Experiment 05 — MQTT Integration
+
+**Objective**
+
+To connect the physical touch interface to the Vespera lighting installation using MQTT.
+
+**Progress**
+- Integrated touch sensor input with MQTT communication.
+- Tested colour control through the Lumi interface.
+- Successfully controlled the physical Vespera lights.
+
+**Result**
+
+The touch interface was able to control the lighting installation through MQTT.
+
+### Experiment 06 — Colour Transition Refinement
+
+**Problem**
+
+Although the initial colour changes worked, transitions between the six colours appeared too abrupt when moving quickly around the touch ring.
+
+**Iteration 1 — Smoother Transitions**
+
+Modified the colour transition behaviour to create a smoother visual experience.
+
+**Iteration 2 — Colour Palette**
+
+The initial colours felt too saturated and visually harsh.
+
+I experimented with a softer, more muted colour palette inspired by pastel and Morandi colours.
+
+However, the lighter colours made the changes less noticeable.
+
+**Iteration 3 — Final Colour Adjustment**
+
+Adjusted the palette again to achieve a better balance between soft colours and visible transitions.
+
+**Result**
+
+The updated colours and transitions were tested on the physical Vespera installation and produced a more satisfactory visual result.
+
+### Reflection
+
+This process highlighted the importance of testing an interactive system in its intended physical environment.
+
+A colour transition that works technically may not necessarily produce a satisfying visual experience.
+
+The project also demonstrated how physical touch input, Arduino processing, MQTT communication and light output can work together as an interactive IoT system.
+
+
+### Experiment 07 — Battery Power and Physical Assembly
+
+**Objective**
+
+To develop a self-contained physical controller that can operate without a continuous USB connection to a laptop.
+
+**Development**
+- Installed a suitable battery power supply.
+- Assembled the Arduino, wiring and touch sensors inside a cardboard enclosure.
+- Mounted six touch sensors on the interaction surface.
+- Organised the internal components to create a portable physical interface.
+
+**Result**
+
+The physical controller has been assembled, and the battery power setup has been successfully implemented.
+
+The prototype combines capacitive touch input, Arduino processing and MQTT communication to control the Vespera lighting installation.
+
+### Current Project Status
+
+**Functional medium-fidelity prototype completed.**
+
+The core interaction has been implemented and tested:
+
+- Six capacitive touch sensors arranged as a circular interface.
+- Touch interaction and direction detection.
+- Wireless lighting control using MQTT.
+- Smooth colour transitions with a refined colour palette.
+- Physical enclosure and battery-powered hardware setup.
+
+The prototype now provides a functional basis for further design refinement and evaluation.
+
+### Further Development and Refinement
+
+Although the core prototype is complete, several improvements could enhance its usability and interaction experience:
+
+1. **Physical interface:** Improve the appearance and accessibility of the touch-sensitive areas.
+2. **Interaction feedback:** Explore how to make touch responses more intuitive and engaging.
+3. **Colour behaviour:** Further refine the relationship between finger movement and lighting transitions.
+4. **Enclosure design:** Improve component arrangement, cable management and structural stability.
+5. **User evaluation:** Observe how other users interact with the controller and identify potential usability improvements.
+
+These are opportunities for refinement rather than requirements for completing the current functional prototype.
+
+
