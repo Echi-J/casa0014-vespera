@@ -1,0 +1,11 @@
+# Private Wi-Fi and MQTT credentials
+secrets.h
+arduino_secrets.h
+config_private.h
+
+# Environment files containing private settings
+.env
+.env.*
+
+# macOS system files
+.DS_Store
