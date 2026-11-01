@@ -1,4 +1,3 @@
-
 # Experiment Log
 
 CASA0014 — Vespera Interactive Controller
@@ -211,4 +210,37 @@ Although the core prototype is complete, several improvements could enhance its 
 
 These are opportunities for refinement rather than requirements for completing the current functional prototype.
 
+### Experiment 08 — Informal User Testing and Tactile Guide Ring Iteration
 
+**Objective**
+
+To observe how other users interact with the touch ring prototype and identify usability issues.
+
+**User Testing**
+
+I asked three classmates to try the prototype.
+
+**Observation**
+
+A key usability issue emerged: it was difficult for users to slide their finger around the touch ring while simultaneously looking at the Vespera light installation.
+
+This suggested that the interaction surface did not provide enough physical guidance.
+
+**Iteration**
+
+In response, I carved a circular guiding track into the surface of the prototype to indicate the intended interaction path.
+
+This created an early tactile distinction between the ring area and the surrounding surface.
+![Carving the tactile guide ring](../assets/hardware/prototype_tactile_guide_ring_iteration.jpg)
+
+**Design Insight**
+
+This test highlighted the importance of tactile guidance in physical interface design.
+
+For a more refined version, the ring itself could be made smoother, while the surrounding surface could provide slightly more resistance, helping users locate and follow the interaction path more intuitively.
+
+**Reflection**
+
+This was a useful reminder that a technically functional prototype is not necessarily easy to use.
+
+User testing helped reveal a usability problem that was not obvious during solo testing.
