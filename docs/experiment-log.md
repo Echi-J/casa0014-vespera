@@ -4,7 +4,7 @@ CASA0014 — Vespera Interactive Controller
 
 This document records the experiments, observations, challenges and lessons learned during the development of the prototype.
 
-## 26/10/2026 — Initial Hardware Testing
+## 26 October 2026 — Initial Hardware Testing
 
 ### Completed
 - Tested HW-763 capacitive touch sensors with an Arduino MKR WiFi 1010.
@@ -98,7 +98,7 @@ A technically functional prototype is not necessarily a usable interface. Physic
 
 ---
 
-## 28 October 2026 — Touch Ring and MQTT Integration
+## 28 October 26 — Touch Ring and MQTT Integration
 
 ### Experiment 04 — Six-Sensor Touch Ring
 
@@ -209,6 +209,8 @@ Although the core prototype is complete, several improvements could enhance its 
 5. **User evaluation:** Observe how other users interact with the controller and identify potential usability improvements.
 
 These are opportunities for refinement rather than requirements for completing the current functional prototype.
+
+## 30 October 2026 — Informal User Testing
 
 ### Experiment 08 — Informal User Testing and Tactile Guide Ring Iteration
 
