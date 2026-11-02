@@ -42,7 +42,17 @@ The final medium-fidelity prototype features six capacitive touch sensors arrang
 
 The controller is battery-powered and communicates wirelessly with the Vespera lighting installation.
 
-*Photographs of the completed prototype will be added.*
+**Completed Touch Interface**
+
+![Completed Vespera touch ring prototype](assets/hardware/prototype_touch_interface.jpg)
+
+The completed controller features six capacitive touch sensors arranged around a circular interface. A tactile guide was later carved into the surface following informal user testing.
+
+**Internal Hardware Assembly**
+
+![Internal wiring and hardware assembly](assets/hardware/prototype_internal_assembly.jpg)
+
+The internal assembly includes the Arduino MKR WiFi 1010, touch sensor connections and battery power supply, housed within a cardboard enclosure.
 
 ### Video Demonstrations
 
