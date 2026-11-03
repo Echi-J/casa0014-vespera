@@ -145,4 +145,14 @@ This makes the controller more portable and allows the interaction interface to 
 
 ### 4.4 System Diagram
 
-A detailed system diagram will illustrate the hardware connections, data processing and MQTT communication between the controller and Vespera.
+The following flowchart illustrates the main control logic of the completed Vespera touch ring prototype.
+
+![Vespera final control flow diagram](assets/diagrams/vespera_final_control_flow.png)
+
+The Arduino continuously monitors six capacitive touch sensors. When touch input is detected, the controller interprets the touch position and movement, calculates the colour response and publishes a command over Wi-Fi to the MQTT broker.
+
+The Vespera installation receives the corresponding message and changes colour.
+
+The dashed arrows represent the repeated monitoring cycle. This diagram is a simplified representation of the control logic rather than a line-by-line description of the Arduino program.
+
+Earlier interaction concepts and alternative approaches are documented in the [Concept Sketches](assets/sketches/README.md).
