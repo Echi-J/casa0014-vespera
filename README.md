@@ -71,6 +71,7 @@ This video shows the touch controller being operated while the corresponding col
 This video demonstrates how the touch controller affects the colours of the physical Vespera lighting installation.
 
 Together, these demonstrations provide evidence of the implemented interaction, from physical touch input to the connected lighting response.
+
 ---
 
 ## 3. Interaction Design
@@ -103,7 +104,20 @@ I refined the colour transition logic to make the lighting response appear smoot
 
 I also experimented with different colour palettes. Very pale colours produced subtle transitions but made colour changes less noticeable. Further adjustments aimed to balance smoothness, colour clarity and visual appeal.
 
-### 3.4 Physical Interaction and Tactile Guidance
+### 3.4 Hardware Assembly Constraints
+
+The header pins on some HW-763 sensor modules had been soldered on the wrong side, making their touch-sensitive surfaces difficult to access from the front of the controller.
+
+As a workaround, I cut openings in the cardboard enclosure so that these sensors could be touched from the reverse side.
+
+Although this allowed the prototype to function, it compromised the physical interaction and the appearance of the interface.
+
+In an ideal design, all sensors would be correctly oriented and concealed beneath a continuous, smooth surface, allowing users to interact without directly touching the electronic components.
+
+This approach would require further testing to determine whether the sensors could reliably detect touch through the chosen surface material.
+
+
+### 3.5 Physical Interaction and Tactile Guidance
 
 Informal testing with three classmates revealed a limitation: users found it difficult to follow the touch ring while simultaneously watching the lights.
 
@@ -112,6 +126,7 @@ To address this, I carved a circular guide into the prototype's surface, providi
 For a more refined product, I would explore using contrasting surface textures, with a smoother circular track and a slightly higher-friction surrounding surface.
 
 The carved guide has been implemented, but its effectiveness has not yet been evaluated through further user testing.
+
 ---
 
 ## 4. System Architecture
